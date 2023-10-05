@@ -1,0 +1,41 @@
+# Byte-compiled / compiled python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django-generated files
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+*.secret_key
+
+# Ignore the virtual environment folder
+venv/
+env/
+*.egg-info/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore development or backup files
+*.bak
+*.swp
+*.~*
+
+# Ignore editor-specific files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore user-specific files
+*.suo
+*.user
+*.sln.docstates
