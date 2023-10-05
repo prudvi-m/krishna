@@ -174,7 +174,11 @@ return jQueryBridget;
     global.EvEmitter = factory();
   }
 
-}( typeof window != 'undefined' ? window : this, function() {function EvEmitter() {}
+}( typeof window != 'undefined' ? window : this, function() {
+
+
+
+function EvEmitter() {}
 
 var proto = EvEmitter.prototype;
 
@@ -555,7 +559,11 @@ return getSize;
     );
   }
 
-}( window, function factory( window, matchesSelector ) {var utils = {};
+}( window, function factory( window, matchesSelector ) {
+
+
+
+var utils = {};
 
 // ----- extend ----- //
 
@@ -2524,7 +2532,11 @@ return Item;
     );
   }
 
-}( window, function factory( Outlayer, getSize ) {// -------------------------- masonryDefinition -------------------------- //
+}( window, function factory( Outlayer, getSize ) {
+
+
+
+// -------------------------- masonryDefinition -------------------------- //
 
   // create an Outlayer layout class
   var Masonry = Outlayer.create('masonry');
@@ -2986,7 +2998,11 @@ return Vertical;
   }
 
 }( window, function factory( window, Outlayer, getSize, matchesSelector, utils,
-  Item, LayoutMode ) {// -------------------------- vars -------------------------- //
+  Item, LayoutMode ) {
+
+
+
+// -------------------------- vars -------------------------- //
 
 var jQuery = window.jQuery;
 

@@ -73,7 +73,9 @@ def verify_checksum_by_str(param_str, merchant_key, checksum):
     paytm_hash = __decode__(checksum, IV, merchant_key)
     salt = paytm_hash[-4:]
     calculated_checksum = generate_checksum_by_str(param_str, merchant_key, salt=salt)
-    return calculated_checksum == checksumdef __id_generator__(size=6, chars=string.ascii_uppercase + string.digits + string.ascii_lowercase):
+    return calculated_checksum == checksum
+
+def __id_generator__(size=6, chars=string.ascii_uppercase + string.digits + string.ascii_lowercase):
     return ''.join(random.choice(chars) for _ in range(size))
 
 
